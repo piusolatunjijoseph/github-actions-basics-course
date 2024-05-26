@@ -14,11 +14,11 @@ jobs:
         working-directory: cron-example
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Setup Nodejs
       - name: Setup Node.js 12
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: "12.x"
 
